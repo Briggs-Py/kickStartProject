@@ -1,2 +1,14 @@
 {% extends "base.html" %}
+{% load i18n %}
+{% load l10n %}
+
 {% block head_title %}KickStart{% endblock %}
+{% block content %}
+    <h1 class="">
+        {% trans "Welcome to KickStart!" %}
+    </h1>
+    <div class="">
+        <h2 id="local-date">{{today}}</h2>
+        <p>{% blocktrans %}TaskBuster is a simple Task manager that helps you organize your daylife. </br> You can create todo lists, periodic tasks and more! </br></br> If you want to learn how it was created, or create it yourself!, check www.django-tutorial.com{% endblocktrans %}</p>
+    </div>
+{% endblock %}

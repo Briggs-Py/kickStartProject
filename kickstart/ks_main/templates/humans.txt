@@ -1,0 +1,8 @@
+# The humans responsible & technology colophon
+
+# TEAM
+    Briggs McKnight -- Developer -- briggs.mcknight@gmail.com
+  
+# TECHNOLOGY COLOPHON
+    Django
+    PostgreSQL
